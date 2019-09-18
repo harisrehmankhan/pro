@@ -1,20 +1,16 @@
 
-#rentalListing {
-  .title {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-
-
   /* SINGLE CARD STYLES*/
-  .bwm-card {
+  .card.bwm-card {
     border: none;
+}
 
+a:hover {
+    text-decoration: none;
+  }
 
     .card-block {
       padding-top: 8px;
-
+    }
 
       .card-subtitle {
         margin: 0;
@@ -23,9 +19,6 @@
         text-transform: uppercase;
         color: #16861a;
       }
-
-
-
 
       .card-title {
         font-size: 19px;
@@ -39,6 +32,3 @@
         color: #7e7e7e;
         margin-bottom: 0;
       }
-    }
-  }
-}

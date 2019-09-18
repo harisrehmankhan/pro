@@ -6,7 +6,7 @@ import { Rental } from '../shared/rental.model';
 @Component({
   selector: 'tourmet-dest-list',
   templateUrl: './dest-list.component.html',
-  styleUrls: ['./dest-list.component.scss']
+  styleUrls: ['./dest-list.component.css']
 })
 export class DestListComponent implements OnInit {
 

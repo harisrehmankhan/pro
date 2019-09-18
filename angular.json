@@ -108,7 +108,7 @@
           }
         },
         "defaults":{
-          "styleExt":"scss",
+          "styleExt":"css",
           "component":{}
         },
         "e2e": {
