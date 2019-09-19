@@ -2,10 +2,10 @@ const Tours= require('./models/tours');
 class FakeDb{
     constructor(){
         this.destDetails = [{
-            title: "Seaside Walkdby",
+            title: "Seaside Walkby",
             city: "San Francisco",
             street: "Main street",
-            category: "condo",
+            category: "accomodation",
             image: "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
             bedrooms: 4,
             shared: true,
@@ -16,7 +16,7 @@ class FakeDb{
             title: "City Tour",
             city: "New York",
             street: "Time Square",
-            category: "apartment",
+            category: "tour",
             image: "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
             bedrooms: 1,
             shared: false,
@@ -27,7 +27,7 @@ class FakeDb{
             title: "Old house in nature",
             city: "Spisska Nova Ves",
             street: "Banicka 1",
-            category: "house",
+            category: "tour",
             image: "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
             bedrooms: 5,
             shared: true,
