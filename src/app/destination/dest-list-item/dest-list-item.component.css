@@ -9,7 +9,7 @@ a:hover {
   }
 
     .card-block {
-      padding-top: 8px;
+      padding-top: 1px;
     }
 
       .card-subtitle {
@@ -17,7 +17,6 @@ a:hover {
         font-weight: 500;
         font-size: 12px;
         text-transform: uppercase;
-        color: #16861a;
       }
 
       .card-title {

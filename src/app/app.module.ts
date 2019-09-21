@@ -28,6 +28,7 @@ import { DestservService } from './destination/shared/destserv.service';
 
 import { DestModule } from './destination/dest.module';
 import { DestListComponent } from './destination/dest-list/dest-list.component';
+// import { MapComponent } from './common/map/map.component';
 
 
 const routes: Routes = [
@@ -46,13 +47,14 @@ const routes: Routes = [
     HeaderComponent,
     ListingsComponent,
     TempComponent
+    // MapComponent
    
   ],
   imports: [
   RouterModule.forRoot(routes),
     BrowserModule,
     AppRoutingModule,
-    DestModule,
+    DestModule
   ],
   providers: [DestservService],
   bootstrap: [AppComponent]
