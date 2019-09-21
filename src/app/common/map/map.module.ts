@@ -19,7 +19,7 @@ import { MapService } from './map.service';
   ],
   imports: [
     AgmCoreModule.forRoot({
-        apiKey: 'AIzaSyDbJGdv9-3VoZVVtQL5Ij-xuMdntT-hVYs'
+        apiKey: 'GOOGLE-MAPS-API-HERE'
       }),
       NgPipesModule,
       CommonModule
